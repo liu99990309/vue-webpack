@@ -4,14 +4,14 @@
   "description": "test",
   "main": "test.js",
   "scripts": {
-    "commit": "git-cz"
+    "commit": "git-cz",
+    "release": "standard-version"
   },
   "author": "",
   "license": "ISC",
   "config": {
     "commitizen": {
-      "path": "cz-conventional-changelog",
-      "release": "standard-version"
+      "path": "cz-conventional-changelog"
     }
   },
   "husky": {
