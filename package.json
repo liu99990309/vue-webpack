@@ -10,7 +10,8 @@
   "license": "ISC",
   "config": {
     "commitizen": {
-      "path": "cz-conventional-changelog"
+      "path": "cz-conventional-changelog",
+      "release": "standard-version"
     }
   },
   "husky": {
@@ -24,5 +25,8 @@
     "commitizen": "^2.9.6",
     "cz-conventional-changelog": "^2.1.0",
     "husky": "^1.0.0-rc.3"
+  },
+  "dependencies": {
+    "standard-version": "^4.3.0"
   }
 }
