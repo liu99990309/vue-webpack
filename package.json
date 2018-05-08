@@ -1,0 +1,20 @@
+{
+  "name": "git",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "test.js",
+  "scripts": {
+    "commit": "git-cz"
+  },
+  "author": "",
+  "license": "ISC",
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "devDependencies": {
+    "commitizen": "^2.9.6",
+    "cz-conventional-changelog": "^2.1.0"
+  }
+}
