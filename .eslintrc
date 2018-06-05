@@ -1,0 +1,23 @@
+{
+  "env": {
+    "browser": true
+  },
+  "parser": "babel-eslint",
+  "extends": ["airbnb-base"],
+  "plugins": ["html"],
+  "settings": {
+    "import/resolver": {
+      "webpack": {
+        "config": "./build/resolve.js"
+      }
+    }
+  },
+  "rules": {
+    "semi": [2, "never"],
+    "comma-dangle": [2, "never"],
+    "import/no-extraneous-dependencies": 0,
+    "global-require": 0,
+    "no-param-reassign": 0,
+    "no-plusplus": 0
+  }
+}
