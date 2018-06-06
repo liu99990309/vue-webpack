@@ -8,6 +8,7 @@
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --config ./build/webpack.config.dev.js --hot",
     "build": "cross-env NODE_ENV=production webpack --config ./build/webpack.config.prod.js",
+    "lint": "eslint src/**/*.{js,vue} --fix",
     "commit": "git-cz",
     "release": "standard-version"
   },
